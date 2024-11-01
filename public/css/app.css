@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hero-image {
+    background: url("../img/soccer.jpg") bottom/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 600px;
+    text-align: center;
+    box-shadow: 0 0 10px;
+}
+
+.login-container h2 {
+    font-size: 3rem;
+    margin: 30px;
+}
+
+.login-container form {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.login-container input {
+    height: 34px;
+    width: 400px;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.submit {
+    margin-top: 20px;
+    padding: 10px;
+    width: 400px;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: white;
+}
+
+.error {
+    font-size:0.9rem;
+    color:rgb(206, 0, 0);
+    font-weight: 600;
+}

@@ -1,0 +1,257 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    line-height: 1.4;
+    font-family: 'lato', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000; 
+}
+
+img {
+    width: 100%;
+}
+
+.container-1200 {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.navbar {
+  background-color: black;
+  height: 75px;
+}
+
+.navbar a {
+  font-weight: bold;
+  padding: 10px;
+  margin: 0 5px;
+  color:white;
+  text-transform: uppercase;
+}
+.flex {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  margin: 0px 60px;
+  height:100%;
+}
+
+.header {
+  margin-left: 20px;
+  text-transform: uppercase;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: 2fr 6fr;
+  padding:20px;
+  margin-top: 2rem;
+  grid-column-gap:40px;
+}
+.menu-container {
+    margin-top: 28px;
+}
+
+.menu-container li {
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border: 1px solid white;
+    background-color: #82a3a5;
+    border-radius: 4px;
+}
+
+.menu-container li a {
+    display: inline-block;
+    background-color: red;
+    color: white;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 2fr 6fr;
+    padding: 20px;
+    margin-top: 2rem;
+    grid-column-gap: 40px;
+}
+
+.responsive-table {
+    padding: 20px;
+    width: 100%;
+}
+
+.responsive-table th,
+.responsive-table td {
+    text-align: center;
+    padding: 20px;
+}
+
+.responsive-table .table-header {
+    background-color: #82a3a5;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.responsive-table .tr {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+}
+
+.data-label {
+    font-size: 1.6rem;
+    color: #6c8f91;
+}
+
+.content-show {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.data-show {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.data-icons {
+    margin-top: 20px;
+    font-size: 1.3rem;
+    color: #6c8f91;
+    padding: 20px 0px;
+    padding-right: 20px;
+}
+
+.heading-two {
+    text-align: start;
+    margin-left: 20px;
+}
+
+.table-row {
+    border-radius: 5px;
+    padding: 25px 30px;
+    margin-bottom: 25px;
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+}
+
+.type-add {
+    font-weight: 600;
+    margin-left: 20px;
+    font-style: italic;
+}
+
+.btn-submit {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: white;
+    font-weight: 600;
+}
+
+form {
+    margin-left: 20px;
+}
+
+form label,
+form input,
+form select {
+    width: 400px;
+    height: 30px;
+    margin: 5px 0px;
+}
+
+.radio {
+    width: auto;
+    height: auto;
+    padding: 10px;
+}
+.del-form{
+  margin-left: 0px;
+}
+.del-button {
+  border: 0px;
+  background-color: white;
+}
+
+.alt-icons {
+  display: flex;
+}
+
+.alt-icons-index {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  padding:5px;
+}
+
+.alt-icon-index{
+  margin: 0 10px;
+}
+
+.footer-container {
+    margin-top: 24vh;
+    background: url("../img/soccer.jpg") bottom/cover no-repeat;
+    height: 14vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-container h2 {
+    color:rgb(240, 240, 240);
+    font-size: 1.4rem;
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 25px;
+    padding:15px;
+}
+
+.uitlog-button{
+    border:none;
+    background-color: black;
+    color:white;
+    font-size: 1.0rem;
+}
+
+.type-add {
+    margin-top: 10px;
+}
+
+.error {
+    font-size:0.9rem;
+    color:rgb(206, 0, 0);
+    font-weight: 600;
+}
+
+.flash {
+    position: absolute;
+    text-align: center;
+    font-size: small;
+    left:45%;
+    top:5%;
+    padding:15px;
+    padding-left: 90px;
+    padding-right:90px;
+    background-color: #ffffff;
+    font-style: italic;
+    box-shadow: 0 0 5px;
+}
+
+.back-icon {
+    font-size: 25px;
+    margin: 10px 20px;
+    color:lightgrey;
+}
